@@ -25,7 +25,12 @@ This package contain the following files:
 
 
 ## 1. Problem Description
-Solar Flare classification has been 
+Solar Flare classification has been an understudied field although on the rise in the last few years. Solar Flare as a phenomena are yet to be a predictable natural phenomena - neither in periodicity nor in strength. 
+The potential for Solar Flares to become a global catastrophy has been speculated yet has not been experienced in the last few centuries and it's impact on infrastructure, especialy electrical, is not fully understood.
+Early identification of solar flares is still far away as best prediction models give a insights to a few days ahead.
+
+The classification problem itself has been so far a manual task where images and Electromagnetic (E/M) field measurements have been used to identify solar flare strength and danger levels. 
+This project aims to classify solar flares on the heliosphere from image and E/M data which will be later used to track solar flare progression from the sun spot stage to full eruption.
 
 
 ## 2. EDA
@@ -132,3 +137,7 @@ Create a Docker container with the following steps:
  
 
  
+## Refrences
+1. Abduallah, Y., Wang, J. T. L., Nie, Y., Liu, C., & Wang, H. (2021). DeepSun: Machine-learning-as-a-service for solar flare prediction. Research in Astronomy and Astrophysics, 21(7), [160]. https://doi.org/10.1088/1674-4527/21/7/160
+2. Real-time solar image classification: Assessing spectral, pixel-based approaches 
+https://www.swsc-journal.org/articles/swsc/full_html/2019/01/swsc180074/swsc180074.html
